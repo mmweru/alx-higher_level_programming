@@ -21,4 +21,3 @@ if number < 0:
 if number == 0:
     message = "Last digit of {} is {}".format(number, number)
     print("{} and is 0".format(message))
-
