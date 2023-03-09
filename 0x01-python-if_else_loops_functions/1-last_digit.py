@@ -19,8 +19,7 @@ if number < 0:
     elif (last < 6) and (last != 0):
         print("{} and is less than 6 and not 0".format(message))
 if number == 0:
-    message = "Last digit of {} is {}".format(number, last)
+    message = "Last digit of {} is {}".format(number, number)
     print("{} and is 0".format(message))
-
 
 
