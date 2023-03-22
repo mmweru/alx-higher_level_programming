@@ -6,5 +6,6 @@ def add(a, b):
 def pow(a, b):
 def fizzbuzz():
 def print_last_digit(number):
+def uppercase(str):
 #endif
 
