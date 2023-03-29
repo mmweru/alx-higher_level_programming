@@ -9,6 +9,6 @@ class Square:
     def __init__ (self, size):
         """A private instance of the class.
         Args:
-        self:the size of the square.
+        self(int):the size of the square.
         """
         self.__size = size
