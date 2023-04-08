@@ -10,7 +10,7 @@ class Rectangle:
 
         Args:
             width(int): The value of the width.
-            height(int): The value of the rectangle's height.
+            height(int): The value of the height.
         """
 
         self.width = width
