@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Introductory part of the code"""
 
+
 class Square:
     """The declaration of the class.
 
