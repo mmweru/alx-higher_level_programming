@@ -4,12 +4,15 @@
 
 class Rectangle:
     """The class Rectangle."""
+
     def __init__(self, width = 0, height = 0):
         """Instantiating attributes.
+
         Args:
             width(int): The value of the width.
             height(int): The value of the rectangle's height.
         """
+
         self.width = width
         self.height = height
     @property
