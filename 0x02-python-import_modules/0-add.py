@@ -10,4 +10,4 @@ if __name__ == "__main__":
     b = 2
     """Declaration of the two variables a: Int and b: Int"""
 
-    print("{} + {} = ".format(a, b), add(a, b))
+    print("{} + {} = {}".format(a, b, add(a, b)))
