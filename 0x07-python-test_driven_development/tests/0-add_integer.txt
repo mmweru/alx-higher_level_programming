@@ -42,3 +42,21 @@ Checking for addition of 4.5 with 3:
 Checking for addition of 2 with 6.7:
     >>> add_integer(2, 6.7)
     8
+
+Checking when Overflow:
+    >>> add_integer(float('inf'), 1)
+    Traceback (most recent call last):
+    ...
+    OverflowError: cannot convert float infinity to integer
+
+Checking Overflow for two numbers:
+    >>> add_integer(float('inf'), float('-inf'))
+    Traceback (most recent call last):
+    ...
+    OverflowError: cannot convert float infinity to integer
+
+Checking for NaN:
+    >>> add_integer(3, float('nan'))
+    Traceback (most recent call last):
+    ...
+    ValueError: cannot convert float NaN to integer
