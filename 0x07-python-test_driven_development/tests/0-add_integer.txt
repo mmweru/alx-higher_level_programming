@@ -1,0 +1,44 @@
+The ``0-add_integer`` module
+============================
+
+Using ``add_integer``
+--------------------
+
+Importing the function from the module:
+    >>> add_integer = __import__('0-add_integer').add_integer
+
+Checking for addition 2 with 6:
+    >>> add_integer(2, 6)
+    8
+
+Checking for addition 4 with -5:
+    >>> add_integer(4, -5)
+    -1
+
+Checking for addition -7 with 5:
+    >>> add_integer(-7, 5)
+    -2
+
+Checking for addition String with 4:
+    >>> add_integer("Code", 4)
+    Traceback (most recent call last):
+    ...
+    TypeError: a must be an integer
+
+Checking for addition 3 with String:
+    >>> add_integer(3, "ALX")
+    Traceback (most recent call last):
+    ...
+    TypeError: b must be an integer
+
+Checking for addition of two floats:
+    >>> add_integer(4.0, 2.1)
+    6
+
+Checking for addition of 4.5 with 3:
+    >>> add_integer(4.5, 3)
+    7
+
+Checking for addition of 2 with 6.7:
+    >>> add_integer(2, 6.7)
+    8
